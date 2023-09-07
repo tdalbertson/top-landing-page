@@ -1,5 +1,6 @@
 :root {
     --roboto-font: 'Roboto', sans-serif;
+    --hero-background-color: #1F2937;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
     align-items: baseline;
     list-style: none;
     width: 100%;
-    background-color: #1F2937;
+    background-color: var(--hero-background-color);
     margin: 0;
     padding: 0.8rem 0 0.4rem 0;
 }
@@ -20,7 +21,7 @@ body {
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
-    font-family: var(--roboto-font)
+    font-family: var(--roboto-font);
     font-weight: 700;
 }
 
@@ -31,4 +32,11 @@ body {
     font-family: var(--roboto-font);
     color: #f9faf8;
     font-weight: 100;
+}
+
+.hero-section {
+    display: flex;
+    background-color: var(--hero-background-color);
+    justify-content: space-around;
+    padding: 10% 0;
 }
