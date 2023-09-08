@@ -7,13 +7,20 @@ body {
     margin: 0;
 }
 
+nav {
+    width: 100%;
+    background-color: var(--hero-background-color);
+    display: flex;
+    justify-content: center;
+}
+
 .nav-items {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
     list-style: none;
     width: 100%;
-    background-color: var(--hero-background-color);
+    max-width: 960px;
     margin: 0;
     padding: 0.8rem 0 0.4rem 0;
 }
@@ -34,9 +41,16 @@ body {
     font-weight: 100;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    background-color: var(--hero-background-color);
+}
+
 .hero-section {
     display: flex;
-    background-color: var(--hero-background-color);
     justify-content: space-around;
     padding: 10% 0;
+    width: 100%;
+    max-width: 960px;
 }
