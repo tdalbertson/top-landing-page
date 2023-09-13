@@ -1,10 +1,12 @@
 :root {
     --roboto-font: 'Roboto', sans-serif;
     --hero-background-color: #1F2937;
+    --section-max-width: 960px; /* To ensure each section is aligned vertically */
 }
 
 body {
     margin: 0;
+    font-family: var(--roboto-font);
 }
 
 nav {
@@ -20,7 +22,7 @@ nav {
     align-items: baseline;
     list-style: none;
     width: 100%;
-    max-width: 960px;
+    max-width: var(--section-max-width);
     margin: 0;
     padding: 0.8rem 0 0.4rem 0;
 }
@@ -28,7 +30,6 @@ nav {
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
-    font-family: var(--roboto-font);
     font-weight: 700;
 }
 
@@ -36,7 +37,6 @@ nav {
     display: flex;
     gap: 1rem;
     font-size: 18px;
-    font-family: var(--roboto-font);
     color: #f9faf8;
     font-weight: 100;
 }
@@ -49,8 +49,45 @@ main {
 
 .hero-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 10% 0;
     width: 100%;
-    max-width: 960px;
+    max-width: var(--section-max-width);
+}
+
+.left-main-items {
+    max-width: 400px;
+}
+
+.main-header {
+    font-weight: 700;
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 100;
+}
+
+.sign-up-button {
+    color: #fff;
+    font-size: 18px;
+    background-color: #3882f6;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+}
+
+.image-placeholder {
+    background-color: #6C747D;
+    width: 50%;
+}
+
+.placeholder-text {
+    color: #f9faf8;
+    text-align: center;
+    padding-top: 25%;
 }
