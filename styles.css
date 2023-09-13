@@ -43,7 +43,14 @@ nav {
 
 main {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-wrapper {
+    display: flex;
     justify-content: center;
+    width: 100%;
     background-color: var(--hero-background-color);
 }
 
