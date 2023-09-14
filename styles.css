@@ -100,3 +100,9 @@ main {
     padding-top: 25%;
     margin: 0;
 }
+
+.information-header {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--hero-background-color);
+}
