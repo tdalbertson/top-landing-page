@@ -101,6 +101,14 @@ main {
     margin: 0;
 }
 
+.information-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: var(--section-max-width);
+}
+
 .information-header {
     font-size: 36px;
     font-weight: 700;
