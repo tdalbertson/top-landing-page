@@ -114,3 +114,27 @@ main {
     font-weight: 700;
     color: var(--hero-background-color);
 }
+
+.image-sub-section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.image-wrapper {
+    max-width: 150px;
+    text-align: center;
+}
+
+img {
+   height: 150px;
+   width: 150px;
+   border: #3882f6 4px solid; 
+   border-radius: 15px;
+   object-fit: cover;
+}
+
+.image-wrapper > p {
+    color: rgb(128,136,146);
+    margin: 0.5rem 0 0 0;
+}
