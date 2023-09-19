@@ -119,6 +119,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     width: 90%;
+    flex-shrink: 0;
 }
 
 .image-wrapper {
