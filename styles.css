@@ -144,9 +144,8 @@ img {
 }
 
 .quote-section {
-    background: url('https://images.unsplash.com/photo-1612739840009-38a1f9516866?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1517&q=80');
+    background: linear-gradient(45deg, rgba(60, 124, 251, 0.4),  rgba(229, 231, 235, 0.6)), url('https://images.unsplash.com/photo-1612739840009-38a1f9516866?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1517&q=80');
     background-size: cover;
-    background-color: ;
     width: 100%;
 }
 
