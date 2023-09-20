@@ -2,6 +2,7 @@
     --roboto-font: 'Roboto', sans-serif;
     --hero-background-color: #1F2937;
     --section-max-width: 960px; /* To ensure each section is aligned vertically */
+    --black-text-stroke: 1px rgb(0, 0, 0, 0.3);
 }
 
 body {
@@ -143,9 +144,9 @@ img {
 }
 
 .quote-section {
-    background-image: url('https://images.unsplash.com/photo-1612739840009-38a1f9516866?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1517&q=80');
+    background: url('https://images.unsplash.com/photo-1612739840009-38a1f9516866?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1517&q=80');
     background-size: cover;
-    background-color: rgb(229, 231, 235, 0.8);
+    background-color: ;
     width: 100%;
 }
 
@@ -163,6 +164,7 @@ img {
     font-family: var(--roboto-font);
     font-weight: 300;
     font-style: italic;
+    -webkit-text-stroke: var(--black-text-stroke);
     margin: 0 auto;
     max-width: 83%;
 }
@@ -174,4 +176,5 @@ img {
     position: relative;
     left: 60%;
     margin: 0;
+    -webkit-text-stroke: var(--black-text-stroke);
 }
