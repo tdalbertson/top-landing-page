@@ -90,6 +90,11 @@ main {
     border-radius: 5px;
 }
 
+.sign-up-button:hover {
+    background-color: #fff;
+    color: #3882f6;
+}
+
 .image-placeholder {
     background-color: #6c747d;
     width: 50%;
