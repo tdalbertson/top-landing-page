@@ -8,6 +8,7 @@
 body {
     margin: 0;
     font-family: var(--roboto-font);
+    width: 100vw;
 }
 
 nav {
@@ -186,6 +187,43 @@ img {
     left: 60%;
     margin: 0;
     -webkit-text-stroke: var(--black-text-stroke);
+}
+
+.call-to-action-sub-section {
+    max-width: var(--section-max-width);
+}
+
+.action-box {
+    width: 960px;
+    padding: 1rem 0;
+    margin: 10%;
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-header {
+    color: #f9faf8;
+    font-weight: 700;
+    margin-bottom: 0.1rem;
+}
+
+.action-box .sign-up-button {
+    border: #fff 2px solid;
+}
+
+.action-box .sign-up-button:hover {
+    background-color: #fff;
+    color: #3882f6;
+    border: #fff 2px solid;
+}
+
+.action-text {
+    margin-top: 0;
+    color: #e5e7eb;
+    font-weight: 100;
 }
 
 footer {
