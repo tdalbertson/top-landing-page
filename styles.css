@@ -8,7 +8,6 @@
 body {
     margin: 0;
     font-family: var(--roboto-font);
-    width: 100vw;
 }
 
 nav {
@@ -114,7 +113,7 @@ main {
     align-items: center;
     width: 100%;
     max-width: var(--section-max-width);
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .information-header {
