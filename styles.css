@@ -187,3 +187,15 @@ img {
     margin: 0;
     -webkit-text-stroke: var(--black-text-stroke);
 }
+
+footer {
+    text-align: center;
+    background-color: var(--hero-background-color);
+    margin: 0;
+    padding: 2rem;
+}
+
+.footer-text {
+    margin: 0;
+    color: #e5e7eb;
+}
