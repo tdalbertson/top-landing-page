@@ -138,6 +138,7 @@ main {
 }
 
 img {
+    box-sizing: border-box;
     height: 150px;
     width: 150px;
     border: #3882f6 4px solid;
@@ -197,7 +198,7 @@ img {
 .action-box {
     width: 960px;
     padding: 2rem 0;
-    margin: 10%;
+    margin: 10% 0;
     background-color: #3882f6;
     border-radius: 5px;
     display: flex;
