@@ -8,7 +8,7 @@ primaryHeader.before(scrollWatcher); // Place before header
 const navObserver = new IntersectionObserver((entries) => {
     // Toggle sticking class if isIntersecting is false
     primaryHeader.classList.toggle('sticking', !entries[0].isIntersecting);
-});
+}, {rootMargin: "20px 0px 0px 0px"});
 
 // Seeing if scrollWatcher is off page
 navObserver.observe(scrollWatcher);
