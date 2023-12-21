@@ -12,13 +12,18 @@ body {
     font-family: var(--roboto-font);
 }
 
-.primary-header.sticking {
+.primary-header {
     position: sticky;
     top: 0;
 }
 
 .primary-header.sticking nav {
-    background-color: black;
+    background-color: hsl(215, 28%, 25%);
+    transition: background-color 500ms;
+}
+
+.primary-header.sticking li {
+    color: #cfcfcf;
 }
 
 nav {
