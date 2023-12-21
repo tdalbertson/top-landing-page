@@ -12,6 +12,15 @@ body {
     font-family: var(--roboto-font);
 }
 
+.primary-header.sticking {
+    position: sticky;
+    top: 0;
+}
+
+.primary-header.sticking nav {
+    background-color: black;
+}
+
 nav {
     width: 100%;
     background-color: var(--hero-background-color);
@@ -27,7 +36,7 @@ nav {
     width: 100%;
     max-width: var(--section-max-width);
     margin: 0;
-    padding: 0.8rem 0 0.4rem 0;
+    padding: 0.8rem 0;
 }
 
 .header-logo {
