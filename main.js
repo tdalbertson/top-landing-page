@@ -2,7 +2,7 @@
 const primaryHeader = document.querySelector('.primary-header')
 const scrollWatcher = document.createElement('div'); // Create empty div element
 
-scrollWatcher.setAttribute('data-scroll-watcher', ''); // Add emtpy data attribute
+scrollWatcher.setAttribute('data-scroll-watcher', ''); // Add empty data attribute
 primaryHeader.before(scrollWatcher); // Place before header
 
 const navObserver = new IntersectionObserver((entries) => {
