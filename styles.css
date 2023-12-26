@@ -268,7 +268,7 @@ footer {
     justify-content: flex-start;
     gap: 0.5rem;
     border: 0;
-    box-shadow: 0 0 1em rgb(0, 0, 0 / 0.3);
+    box-shadow: 0 0 1em rgb(0 0 0 / 0.3);
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 1rem;
