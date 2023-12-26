@@ -27,6 +27,15 @@ signUpButtons.forEach((button) => {
 });
 
 closeModal.addEventListener('click', () => {
-    modal.close();
+    modal.close(); 
     modal.style.display = null; // For removing flex display to hide modal
+});
+
+// To account for user pressing the ESC key
+document.addEventListener('keydown', function(event) {
+    let key = event.key
+    if (key && 'Escape' === key) {
+        modal.style.display = null; // Needed to remove flex display to close modal
+        modal.close();
+    }
 });
