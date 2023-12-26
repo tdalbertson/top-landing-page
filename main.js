@@ -15,13 +15,16 @@ navObserver.observe(scrollWatcher);
 
 // Open modal
 const modal = document.querySelector('#modal');
-const openModal = document.querySelector('.sign-up-button');
+const signUpButtons = document.querySelectorAll('.sign-up-button');
 const closeModal = document.querySelector('.close-button');
 
-openModal.addEventListener('click', () => {
-    modal.showModal();
-    modal.style.display = 'flex'; // For adding desired flex display
-}) 
+// To account for each sign up button
+signUpButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+        modal.showModal();
+        modal.style.display = 'flex'; // For adding desired flex display
+    }) 
+})
 
 closeModal.addEventListener('click', () => {
     modal.close();
