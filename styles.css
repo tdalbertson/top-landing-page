@@ -107,6 +107,7 @@ main {
     border: none;
     padding: 0.5rem 2rem;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .sign-up-button:hover {
@@ -259,16 +260,22 @@ footer {
 
 /* Modal Styles */
 #modal {
-    position: relative;
+    position: fixed;
+    top: 25%;
     width: 450px;
-    display: flex;
+    /* Display of flex is added with JS as setting it before will cause modal to appear on page before clicking sign up button*/
     flex-direction: column;
     justify-content: flex-start;
     gap: 0.5rem;
-    border: 1px solid #ddd;
+    border: 0;
+    box-shadow: 0 0 1em rgb(0, 0, 0 / 0.3);
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 1rem;
+}
+
+#modal::backdrop {
+    background: rgb(0 0 0 / 0.4);
 }
 
 .close-button {
@@ -299,6 +306,12 @@ footer {
     font-size: 1.2rem;
     border-radius: 0.3rem;
     border: 1px solid #ddd;
+    margin-bottom: 0.5rem;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
 }
 
 .submit-button {
