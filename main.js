@@ -13,3 +13,17 @@ const navObserver = new IntersectionObserver((entries) => {
 // Seeing if scrollWatcher is off page
 navObserver.observe(scrollWatcher);
 
+// Open modal
+const modal = document.querySelector('#modal');
+const openModal = document.querySelector('.sign-up-button');
+const closeModal = document.querySelector('.close-button');
+
+openModal.addEventListener('click', () => {
+    modal.showModal();
+    modal.style.display = 'flex'; // For adding desired flex display
+}) 
+
+closeModal.addEventListener('click', () => {
+    modal.close();
+    modal.style.display = null; // For removing flex display to hide modal
+})
