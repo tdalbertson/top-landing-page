@@ -24,9 +24,9 @@ signUpButtons.forEach((button) => {
         modal.showModal();
         modal.style.display = 'flex'; // For adding desired flex display
     }) 
-})
+});
 
 closeModal.addEventListener('click', () => {
     modal.close();
     modal.style.display = null; // For removing flex display to hide modal
-})
+});
