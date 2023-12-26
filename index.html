@@ -31,8 +31,11 @@
       <button class="close-button">x</button>
       <h3>Stay in touch</h3>
       <p>Sign up for our newsletter.</p>
-      <input type="email" name="newsletter" id="email" placeholder="example@example.com">
-      <button class="submit-button">Submit</button>
+      <form action="dialog" class="email-form">
+        <label for="newsletter" name="email"></label>
+        <input type="email" name="newsletter" id="email" placeholder="example@example.com" required>
+        <button class="submit-button">Submit</button>
+      </form>
     </dialog>
     <!-- Modal HTML ends here -->
     <main>
