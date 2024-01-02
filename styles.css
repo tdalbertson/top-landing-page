@@ -252,11 +252,21 @@ img {
     width: 960px;
     padding: 2rem 0;
     margin: 10% 0;
-    background-color: #3882f6;
     border-radius: 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: linear-gradient(to left,
+    rgba(60, 124, 251, 0.9),
+    rgba(55, 27, 92, 0.7));
+    background-size: 180%;
+
+    animation: bg-animation 10s infinite alternate;
+}
+
+@keyframes bg-animation {
+    0% {background-position: left}
+    100% {background-position: right}
 }
 
 .action-header {
@@ -267,11 +277,6 @@ img {
 
 .action-box .sign-up-button {
     border: #fff 1px solid;
-    background: linear-gradient(90deg,
-    rgba(60, 124, 251, 0.4),
-    rgba(55, 27, 92, 0.626),
-    rgba(238, 239, 240, 0.6));
-    background-size: 100% 100%;
 }
 
 .action-box .sign-up-button:hover {
