@@ -39,3 +39,17 @@ document.addEventListener('keydown', function(event) {
         modal.close();
     }
 });
+
+// For closing the modal when clicking outside of it
+modal.addEventListener("click", e => {
+    const dialogDimensions = modal.getBoundingClientRect();
+    if (
+        e.clientX < dialogDimensions.left ||
+        e.clientX > dialogDimensions.right ||
+        e.clientY < dialogDimensions.top ||
+        e.clientY > dialogDimensions.bottom
+    ) {
+        modal.style.display = null;
+        modal.close();
+    }
+});
